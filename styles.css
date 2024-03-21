@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(23, 96, 88);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homepage{
+    background-image: url("Muiruri's  Images/background image.jpg");
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+     max-width: 800px;
+    margin:0 auto;
+    padding: 20px;
+    }
+.header{
+    display: flex;
+    align-items: center;
+}    
+.profle-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: rotate 3s infinite linear;
+}
+@keyframes rotate{
+    from{transform:rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+
+.image{
+    float:right;
+    margin: 10px;
+} 
+.section{
+    margin-bottom: 30px;
+}
+.button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius:5px ;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
